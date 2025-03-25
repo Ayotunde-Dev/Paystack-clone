@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.nav {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.first-nav {
+    display: flex;
+} 
+.paystack-logo {
+    max-width: 5rem;
+}
+.logo {
+    width: 100%;
+}
+.log {
+    display: flex;
+    text-decoration: none;
+}
+.nav-list {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    font-size: 1.6rem;
+    font-weight: 550;
+}
+.second-nav {
+    display: flex;
+}
+.nav-list-2 {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    font-size: 1.6rem;
+    font-weight: 550;
+}
+.btn {
+    background-color: #3bb75e;
+    border: none;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 1rem;
+    color: white;
+
+}
+.modern {
+    position: absolute;
+    top: 50%;
+    font-size: 3rem;
+    font-weight: 600;
+    max-width: 50rem;
+}
+.body-image {
+    position: relative;
+
+}
+
+.modern article {
+    width: 100%;
+}
+.modern article h2 {
+    width: 100%;
+}
+.modern article .abt-paystack {
+    font-size: 2rem;
+    font-weight: 300;
+}
+.modern  .btn {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
+.contact-sales {
+    color:  #3bb75e;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.modern .create {
+   display: flex;
+   align-items: center;
+    gap: 2rem;
+
+}
+.modern .create .contact-sales {
+    padding-top: 2rem;
+}
