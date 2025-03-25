@@ -110,10 +110,12 @@ html {
     gap: 1.5rem;
 
 } 
-.trusted .we-trust .c-logo {
-   
-   
-}
+
 section .we-trust .c-logo .u-lazyload--is-done {
   height: 3rem;
+}
+
+.watch {
+    font-weight: 500;
+    font-size: 1.7rem;
 }
