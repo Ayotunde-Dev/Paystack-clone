@@ -68,7 +68,9 @@ html {
     position: relative;
 
 }
-
+.modern {
+    margin-left: 5rem;
+}
 .modern article {
     width: 100%;
 }
@@ -97,4 +99,21 @@ html {
 }
 .modern .create .contact-sales {
     padding-top: 2rem;
+}
+.modern section .trusted {
+    padding-top: 11rem;
+    font-size: 2rem;
+}
+.we-trust {
+    padding-top: 2rem;
+    display: flex;
+    gap: 1.5rem;
+
+} 
+.trusted .we-trust .c-logo {
+   
+   
+}
+section .we-trust .c-logo .u-lazyload--is-done {
+  height: 3rem;
 }
