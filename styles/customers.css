@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+body{
+    position: relative;
+}
+.nav {
+    margin: 3rem 3rem;
+    display: flex;
+    position: sticky;
+    
+}
+
+.nav .ul-one {
+
+}
+.nav .nav-div .ul-two {
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
+    
+}
+.nav .nav-div .ul-three {
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
+}
+li {
+    list-style: none;
+    font-size: 1.7rem;
+}
+.nav .ul-one .nav-li a {
+ text-decoration: none;
+ color: black;
+}
+.nav .nav-div .ul-two .nav-li a {
+    text-decoration: none;
+    color: black;
+   }
+   .nav .nav-div .ul-three .nav-li a {
+    text-decoration: none;
+    color: black;
+   }
+   .nav .nav-div {
+    display: flex;
+    gap: 50rem;
+
+   }
+.nav .nav-div .ul-three .btn {
+    padding: 1rem 1rem;
+    border: none;
+    color: white;
+    background-color: #3bb75e;
+    border-radius: .5rem;
+}
+.customer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 250rem;  
+}
+.customer div {
+    width: 35%;
+}
+.customer div h2 {
+    font-weight: 800;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.customer .honoured {
+    font-size: 1.8rem;
+    text-align: center;
+}
+.mtn-review {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 3.5rem;
+    border: 1px solid grey;
+    justify-content: center;
+    align-items: start;
+    width: 45rem;
+    max-height: 30rem;
+    border-radius: .5rem;
+
+   
+}
+.mtn-review .c-logo {
+    padding-bottom: 2rem;
+   width: 20%;
+}
+.mtn-review .c-logo .mtn-logo
+{
+    
+   width: 100%;
+}
+.mtn-review article {
+    font-size: 1.5rem;
+    padding-bottom: 2.5rem;
+    max-width: 100%;
+}
+.mtn-div {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    max-width: 32rem;
+    padding-top: 3rem;
+   
+}
+
+.mtn-div .mtn-author {
+    border-radius: 100%;
+    max-width: 16%;
+    
+}
+.olubayo {
+    padding-left: 1rem;
+}
+ .cto-mtn {
+    font-weight: 700;
+}
+.all-reviews {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+   
+}
