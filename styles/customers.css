@@ -7,133 +7,157 @@
 html {
     font-size: 62.5%;
 }
-body{
-    position: relative;
+body {
+   
 }
+
 .nav {
-    margin: 3rem 3rem;
     display: flex;
-    position: sticky;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    position: relative;
+    padding-bottom: 2rem;
+   
+}
+.paystack {
+    display: flex;
+}
+section .nav-1 {
+    position: fixed;
     
 }
-
-.nav .ul-one {
-
-}
-.nav .nav-div .ul-two {
-    display: flex;
-    gap: 2.5rem;
-    list-style: none;
-    
-}
-.nav .nav-div .ul-three {
-    display: flex;
-    gap: 2.5rem;
-    list-style: none;
-}
-li {
-    list-style: none;
-    font-size: 1.7rem;
-}
-.nav .ul-one .nav-li a {
- text-decoration: none;
- color: black;
-}
-.nav .nav-div .ul-two .nav-li a {
-    text-decoration: none;
-    color: black;
-   }
-   .nav .nav-div .ul-three .nav-li a {
-    text-decoration: none;
-    color: black;
-   }
-   .nav .nav-div {
-    display: flex;
-    gap: 50rem;
-
-   }
-.nav .nav-div .ul-three .btn {
-    padding: 1rem 1rem;
-    border: none;
-    color: white;
-    background-color: #3bb75e;
-    border-radius: .5rem;
-}
-.customer {
+ .nav .nav-1 {
     display: flex;
     align-items: center;
-    justify-content: center;
-    max-width: 250rem;  
+    list-style: none;
+    gap: 2rem;
+    
+    
 }
-.customer div {
-    width: 35%;
+    .nav-1 .paystack {
+        max-width: 12rem;
+        
+    
+    }
+    .nav-1 .paystack .paystack-logo {
+        max-width: 35%;
+    }
+
+.nav .nav-1 a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.9rem;
+
+    
 }
-.customer div h2 {
-    font-weight: 800;
-    font-size: 3.5rem;
-    text-align: center;
-    margin-bottom: 2rem;
+
+
+.nav .nav-2 {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+
 }
-.customer .honoured {
-    font-size: 1.8rem;
-    text-align: center;
+.nav .nav-2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.9rem;
+    
 }
-.mtn-review {
+.btn {
+padding: 1rem 2rem;
+border-radius: .5rem;
+border: none;
+background-color: #3bb75e;
+height: 5rem;
+}
+.testimonials {
     display: flex;
     flex-direction: column;
-    padding: 5rem 3.5rem;
-    border: 1px solid grey;
-    justify-content: center;
-    align-items: start;
-    width: 45rem;
-    max-height: 30rem;
-    border-radius: .5rem;
-   
-
-   
-}
-.mtn-review .c-logo {
-    padding-bottom: 2rem;
-   width: 20%;
-}
-.mtn-review .c-logo .mtn-logo
-{
-    
-   width: 100%;
-}
-.mtn-review article {
-    font-size: 1.6rem;
-    font-weight: 100;
-    padding-bottom: 2.5rem;
-    max-width: 100%;
-}
-.mtn-div {
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    max-width: 32rem;
-    padding-top: 3rem;
-   
-}
-
-.mtn-div .mtn-author {
-    border-radius: 100%;
-    max-width: 16%;
-    
-}
-.olubayo {
-    padding-left: 1rem;
-}
- .cto-mtn {
-    font-weight: 700;
-}
-.all-reviews {
-    display: flex;
-    gap: 2rem;
     align-items: center;
     justify-content: center;
-    padding-top: 4rem;
-    margin-left: 16rem;
-    margin-right: 16rem;
+    padding-top: 10rem;
+    background-color: #eaf6fc;
+    height: 50vh;
+    margin-bottom: 12rem;
+   
+    
+}
+.testimonials article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 90rem;
+    font-size: 3rem;
    
 }
+.testimonials article span {
+    color: #4D83B6;
+    text-align: center;
+    font-size: 2rem;
+    max-width: 60rem;
+    padding-top: 2rem;
+}
+.office {
+    max-width: 25rem;
+}
+.review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 3rem;
+    gap: 2rem;
+    
+
+}
+.reviews {
+    border: 1px solid #f9f1f1;
+    padding: 4rem 3rem;
+    max-width: 30%;
+    border-radius: 1rem;
+    height: 32rem;
+    
+}
+.logo-fig {
+   max-width: 10rem;
+    padding-bottom: 4rem;
+}
+.logo-fig .logo {
+    height: 3rem;
+    object-fit: contain;
+    width: 100%;
+}
+.review-article {
+    padding-bottom: 4rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.profile-img {
+    border-radius: 100%;
+    max-width: 6rem;
+}
+.profile-article {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.9rem;
+    font-weight: 600;
+    gap: .3rem;
+}
+.profile-article .office {
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
