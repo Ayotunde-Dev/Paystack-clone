@@ -4,11 +4,12 @@
     box-sizing: border-box;
 }
 
+font-face {
+    font-family: Myfont;
+    src: url(graphik.otf)
+}
 html {
     font-size: 62.5%;
-}
-body {
-   
 }
 
 .nav {
@@ -19,8 +20,7 @@ body {
     margin-left: 6rem;
     margin-right: 6rem;
     position: relative;
-    padding-bottom: 2rem;
-   
+    padding-bottom: 2rem;   
 }
 .paystack {
     display: flex;
@@ -53,6 +53,7 @@ section .nav-1 {
     color: black;
     font-size: 1.9rem;
 
+    font-family: MyFont, Arial, Helvetica, sans-serif;
     
 }
 
@@ -68,6 +69,7 @@ section .nav-1 {
     text-decoration: none;
     color: black;
     font-size: 1.9rem;
+    font-family: MyFont, Arial, Helvetica, sans-serif;
     
 }
 .btn {
@@ -86,7 +88,10 @@ height: 5rem;
     background-color: #eaf6fc;
     height: 50vh;
     margin-bottom: 12rem;
-   
+}
+.customer-testimonials {
+    color: #011B33;
+    font-family: -apple-system;
     
 }
 .testimonials article {
@@ -99,11 +104,11 @@ height: 5rem;
    
 }
 .testimonials article span {
-    color: #4D83B6;
     text-align: center;
     font-size: 2rem;
     max-width: 60rem;
     padding-top: 2rem;
+    font-weight: 100;
 }
 .office {
     max-width: 25rem;
@@ -115,8 +120,6 @@ height: 5rem;
     max-width: 100%;
     margin-top: 3rem;
     gap: 2rem;
-    
-
 }
 .reviews {
     border: 1px solid #f9f1f1;
