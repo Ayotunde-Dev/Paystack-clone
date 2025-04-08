@@ -15,28 +15,20 @@ html {
     width: 100%;
     padding-top: 1rem;
     z-index: 100; 
-    
-   
+    background-color: #f6fcf7;
+    opacity: 0.7;
 }
-.paystack {
-    display: flex;
-}
+
 .nav .nav-1 {
-    width: 100%;
-   
-    padding-left: 6rem;
-     
-    
-}
- .nav .nav-1 {
+    padding-left: 6rem;   
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 2rem; 
+    gap: 2rem;  
 }
    
-    .nav-1 .paystack .paystack-logo {
-        width: 10rem;
+  .nav  .nav-1 .paystack .paystack-logo {
+      width: 10rem;
     }
 
 .nav .nav-1 a {
@@ -45,9 +37,12 @@ html {
     text-decoration: none;
     color: black;
     font-size: 1.9rem;
-    font-family: MyFont, Arial, Helvetica, sans-serif;
-    
+    font-family: MyFont, Arial, Helvetica, sans-serif;   
 }
+.nav .nav-1 a:hover {
+    color: blue;
+}
+  
 
 
 .nav .nav-2 {
@@ -59,11 +54,15 @@ html {
 
 }
 .nav .nav-2 a {
+    display: flex;
+    align-items: center;
     text-decoration: none;
     color: black;
     font-size: 1.9rem;
     font-family: MyFont, Arial, Helvetica, sans-serif;
-    
+}
+.nav .nav-2 a:hover {
+    color: blue;
 }
 .btn {
 padding: 1rem 2rem;
@@ -71,17 +70,121 @@ border-radius: .5rem;
 border: none;
 background-color: #3bb75e;
 color: white;
-height: 5rem;
+height: 3.8rem;
 width: 16rem;
-}
-.main {
-    padding-left: 4rem;
-    display: flex;
-    background-color:#F1FEF4;
-    height: 100vh;
-    width: 100%;
 }
 .main {
     display: flex;
     align-items: center;
+    padding-left: 6rem;
+    background-color:#F1FEF4;
+    height: 120vh;
+}
+.main .modern {
+    max-width: 50%;
+}
+.main .modern article h2 {
+    font-size: 4rem;
+    padding-bottom: 2rem;
+}
+.main .modern article span {
+    font-size: 2rem;
+}
+.main .modern article .modern-btn {
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+.main .modern article .modern-btn .btn {
+    font-size: 1.7rem;
+    width: 20rem;
+    height: 4rem;
+}
+.main .modern article .modern-btn span {
+    color: #3bb75e;
+}
+ 
+.main .modern-img {
+    width: 50%;
+}
+
+.main .modern-img figure {
+    width: 100%;
+    overflow: hidden;
+}
+.main .modern-img figure img {
+    overflow: hidden;
+}
+
+
+.div-two {
+    background-color: #F1FEF4;
+    padding: 0rem 9rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+.div-two .trustee {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.div-two .trustee span {
+    font-size: 2rem;
+}
+.div-two .trustee figure {
+    max-width: 9rem;
+    display: flex;
+    gap: 1rem;
+}
+.div-two .trustee figure img {
+    max-width: 100%;
+}
+.div-two span {
+    max-width: 40%;
+    font-size: 2rem;
+}
+.simple {
+    display: flex;
+    flex-direction: column;
+    padding: 9rem 9rem;
+}
+.simple h2 {
+    color: #011B33;
+    font-size: 4rem;
+    padding-bottom: 1.5rem;
+}
+.simple span {
+    font-size: 2rem;
+}
+.delight {
+    display: flex;
+    gap: 9rem;
+    padding: 1rem 9rem; 
+}
+.delight figure {
+    max-width: 45%;
+}
+.delight figure img {
+    width: 100%;
+}
+.delight section {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.delight section h2 {
+    font-size: 4rem;
+    padding-bottom: 1.5rem;
+    color: #011B33;
+}
+.delight section span {
+    line-height: 2.5rem;
+    font-size: 2rem;
+}
+ .delight .payment-type {
+    padding-top: 2.5rem;
+    display: flex;
+    gap: 10rem;
 }
