@@ -123,6 +123,7 @@ width: 16rem;
     padding: 0rem 9rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     max-width: 100%;
 }
 .div-two .trustee {
@@ -164,9 +165,10 @@ width: 16rem;
     padding: 1rem 9rem; 
 }
 .delight figure {
-    max-width: 45%;
+    max-width: 45%; 
 }
 .delight figure img {
+    height: 62rem;
     width: 100%;
 }
 .delight section {
@@ -183,8 +185,37 @@ width: 16rem;
     line-height: 2.5rem;
     font-size: 2rem;
 }
+.delight section .payment-type ul {
+    list-style: none; 
+}
+.delight section .payment-type ul li img {
+    width: 2rem;
+}
  .delight .payment-type {
     padding-top: 2.5rem;
     display: flex;
     gap: 10rem;
+}
+.delight section .enjoy {
+    padding-top: 3rem;
+    line-height: 4rem;
+}
+.enjoy-btn {
+    
+    border-radius: 100%;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid #3BB75E;
+    color: #3BB75E;
+
+}
+.delight section .find-sec {
+    margin-top: 2.5rem;         
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+.delight section .find-sec .find {
+    color: #3BB75E;
+    font-size: 1.7rem;
 }

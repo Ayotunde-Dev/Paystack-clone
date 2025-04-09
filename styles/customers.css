@@ -19,6 +19,8 @@ html {
     width: 100%;
     padding-top: 1rem;
     z-index: 100;
+    background-color: #eaf6fc;
+    opacity: 0.7;
    
    
 }
