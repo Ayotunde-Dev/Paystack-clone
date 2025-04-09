@@ -219,3 +219,16 @@ width: 16rem;
     color: #3BB75E;
     font-size: 1.7rem;
 }
+.build {
+  display: flex;
+  padding: 6rem 11rem;
+  width: 50%;
+}
+.build h2 {
+    font-size: 4rem;
+    padding-bottom: 2rem;
+}
+.build span {
+    font-size: 2rem;
+    width: 85%;
+}
