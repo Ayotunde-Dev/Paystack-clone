@@ -110,6 +110,42 @@ console.log(alphabet)
 const BoolType = false
 const BoolTypeToString = String (false)
 console.log(BoolTypeToString)
+
+let SingleDigit = 1234567890
+let Single = String(SingleDigit)
+console.log(Single)
+
+function addTwoNumbers(p, q) {
+    return p + q
+}
+let result = addTwoNumbers(2,6)
+console.log(result)
+
+function addPrimeNumbers(a,b,c){
+    return a +b + c
+}
+let sumOfPrimeNumbers = addPrimeNumbers(2,3,5)
+console.log(sumOfPrimeNumbers)
+
+
+function addEvenNumbers (a,b) {
+    return a+b
+}
+let even = addEvenNumbers(2,4)
+console.log(even)
+
+function callMyName (name) {
+    return "Ayotunde"
+}
+let myName = callMyName ()
+console.log(myName)
+
+function callMyDog (dog) {
+    return "Doodle"
+}
+let myDog = callMyDog()
+console.log(myDog)
+
 /*
 const console = ()=>{
     
