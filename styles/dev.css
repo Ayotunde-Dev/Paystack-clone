@@ -425,4 +425,20 @@ height: 100%;
 }
 .modern-div .modernPayment {
     padding-top: 2rem;
+    max-width: 80rem;
+}
+.modern-div .modernPayment h2 {
+    font-size: 3.5rem;
+    width: 100%;
+    padding-bottom: 2.5rem ;
+}
+.modern-div .modernPayment article {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+.modern-div .modernPayment ul {
+    padding-top: 1rem;
+    font-size: 2rem;
+    list-style: none;
+    
 }
