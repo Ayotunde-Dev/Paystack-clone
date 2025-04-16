@@ -80,7 +80,7 @@ html {
     align-items: center;
     height: 100vh;
     justify-content: left;
-    background-color: #f6fcf7;
+    background-color: #eaf6fc;
     color: #011B33;
 }
 
@@ -109,12 +109,17 @@ html {
     }
     .build {
         display: flex;
-        gap: 20rem;
-        padding: 6rem 6rem;
-        width: 50%;
+        align-items: center;
+        padding: 0rem 15rem;
+        gap: 9rem;
         font-size: 2rem;
       }
-      
+      .build section {
+        width: 45rem;
+      }
+      .build section article {
+        padding-bottom: 3rem;
+      }
       .build section h2 {
           font-size: 4rem;
           padding-bottom: 2rem;
@@ -127,8 +132,6 @@ html {
           padding-bottom: .5rem;
           font-size: 1.6rem;
           width: 40rem;
-          
-       
           
       }
       .build section ul li {
@@ -143,11 +146,12 @@ html {
           height: 3rem;
       }
       .robust-fig {
-          max-height: 100rem;
+        padding-top: 9rem;
+          height: 80rem;
       }
       .robust-fig .robust {
-          padding-top: 11rem;
-          height: 70%;
+         padding-top: 11rem;
+          height: 80%;
       }
       .build section .find-sec .find {
           
@@ -155,4 +159,270 @@ html {
           font-size: 1.7rem;
           margin-top: 5rem;
       }
-       
+      .build section .find-sec .enjoy-btn {
+        border-radius: 100%;
+        border: 1px solid #3BB75E;
+        background-color: white;
+        color: #3BB75E;
+        width: 2rem;  
+      }
+      .five {
+        background-color: #eaf6fc;
+        padding: 14rem 14rem;
+      }
+      .five section {
+        padding-bottom: 14rem;
+      }
+      .five section h2 {
+        font-size: 4rem;
+        color: #011B33;
+        padding-bottom: 2rem;
+      }
+      .five section article {
+        font-size: 2rem;
+        width: 50rem;
+        line-height: 3rem;
+        font-weight: 100;
+      }
+      .app ul{
+        display: flex;
+        gap: 2.5rem;
+        list-style: none;
+        border-bottom: .4px solid grey;
+        font-size: 1.2rem;
+        padding-bottom: 2.5rem;
+        font-weight: 700;
+      }
+     .five .app ul li:hover {
+        color: blue;
+      }
+      .five main {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+      }
+      .five .resolve {
+        border: 1px solid white;
+        background-color: white;
+        border-radius: 1rem;
+        padding: 0rem 2rem;
+        height: 25rem;
+      }
+      
+      .five .resolve {
+        border: 1px solid white;
+        max-width: 33.3%;
+        
+      }
+      .five .resolve h2 {
+        padding-top: 2rem;
+        font-size: 2.5rem;
+        
+      }
+      .five .resolve article {
+        width: 35rem;
+      }
+      .five .resolve .learn {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding-top: 3rem;
+      }
+      .five .resolve .learn span {
+        color: #0BA4DB;
+        font-size: 1.5rem;
+      }
+      .blue-btn {  
+        height: 2rem;
+        width: 2rem;
+        border: 1px solid #0BA4DB;
+        border-radius: 100%;
+        color: #0BA4DB;
+      }
+     .five .documentation {
+        display: flex;
+        gap: 1rem;
+        padding-top: 2rem;
+      }
+      .five .documentation article {
+        font-size: 1.6rem;
+        font-weight: 550;
+      }
+      .five .documentation .doc-btn {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 100%;
+        color: #3BB75E;
+        background-color: white;
+        border: 1px solid #3BB75E;
+      }
+      .delight {
+        display: flex;
+        align-items: center;
+        gap: 9rem;
+        padding: 12rem 16rem; 
+    }
+    .delight figure {
+        max-width: 45%; 
+    }
+    .delight figure img {
+        height: 62rem;
+        width: 100%;
+    }
+    .delight section {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+    .delight section h2 {
+        font-size: 4rem;
+        line-height: 3.5rem;
+        padding-bottom: 1.5rem;
+        color: #011B33;
+    }
+    .delight section span {
+        line-height: 2.5rem;
+        font-size: 2rem;
+    }
+    .delight section .payment-type ul {
+        list-style: none; 
+    }
+    .delight section .payment-type ul li img {
+        width: 2rem;
+    }
+     .delight .payment-type {
+        padding-top: 2.5rem;
+        display: flex;
+        gap: 10rem;
+    }
+   .platform {
+    padding: 15rem 15rem;
+   }
+   .platform  .platform-sec{
+    width: 45rem;
+  }
+    .platform .platform-sec h2 {
+    font-size: 5rem;
+    color: #011B33;
+    width: 65rem;
+  }
+  .platform .platform-sec article {
+    padding-top: 2rem;
+    font-size: 2rem;
+    width: 60rem;
+  }
+  .websitePlatforms {
+    padding-top: 8rem;
+    display: flex;
+    gap: 4rem;
+  }
+.websitePlatforms  figure {
+    border: 1px solid #011B33;
+    border-radius: 1rem;
+    background-color: #011B33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 20rem;
+}
+.websitePlatforms figure img {
+    width: 50%;
+  
+}
+ .websitePlatforms figure:hover {
+    color: white;
+}
+
+.platform .all-pluggins {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 3rem;
+}
+.platform .all-pluggins span {
+    color: #0BA4DB;
+    font-size: 1.6rem;
+}
+.vid-sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60rem;
+    padding: 1rem 12rem;
+    padding-bottom: 3rem;
+}
+.vid {
+    width: 60rem;
+    height: 100%;
+}
+.vid-sec section {
+    width: 60rem;
+height: 100%;
+}
+.vid-sec section .protect {
+    display: flex;
+    flex-direction: column;
+    font-size: 4rem;
+    color: #011B33;
+    max-width: 45rem;
+    line-height: 4rem;
+    padding-top: 5rem;
+}
+.vid-sec section .protect span {
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    color: black;
+    line-height: 2rem;
+}
+.verify-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6rem 12rem;
+}
+.verify-div .verify-fig {
+    max-width: 60rem;
+}
+.verify-div .verify-fig img {
+    width: 100%;
+}
+.verify-div section {
+    width: 60rem;
+}
+.verify-div section h2 {
+    font-size: 4rem;
+    color: #011B33;
+    padding-bottom: 2rem;
+}
+.verify-div section article {
+    font-size: 2rem;
+}
+.verify-div section ul {
+   
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 1.7rem;
+    list-style: none;
+}
+.verify-btn {
+    
+    width: 3rem;
+    height: 3rem;
+    background-color: #f1fef4;
+    border: none;
+    color: green;
+    border-radius: .5rem;
+    padding-bottom: 2rem;
+}
+
+.modern-div {
+    padding: 2rem 16rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.modern-div .modernPayment {
+    padding-top: 2rem;
+}
