@@ -6,6 +6,7 @@
 
 html {
     font-size: 62.5%;
+    height: 100vh;
 }
 
 .nav {
@@ -162,7 +163,7 @@ width: 16rem;
 .delight {
     display: flex;
     gap: 9rem;
-    padding: 1rem 9rem; 
+    padding: 1rem 6rem; 
 }
 .delight figure {
     max-width: 45%; 
@@ -221,14 +222,261 @@ width: 16rem;
 }
 .build {
   display: flex;
-  padding: 6rem 11rem;
+  gap: 20rem;
+  padding: 6rem 6rem;
   width: 50%;
+  font-size: 2rem;
 }
-.build h2 {
+.build section h2 {
     font-size: 4rem;
     padding-bottom: 2rem;
+    color: #011B33;
 }
-.build span {
+
+.build section ul {  
+    display: flex;
+    align-items: center;
+    padding-bottom: .5rem;
+    font-size: 1.6rem;
+    width: 40rem;
+    
+ 
+    
+}
+.build section ul li {
+    list-style: none;
+}
+.myTick {
+    color: green;
+    background-color: rgb(217, 248, 253);
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    height: 3rem;
+}
+.robust-fig {
+    max-height: 100rem;
+}
+.robust-fig .robust {
+    padding-top: 11rem;
+    height: 70%;
+}
+.build section .find-sec .find {
+    
+    color: #3BB75E;
+    font-size: 1.7rem;
+    margin-top: 5rem;
+}
+ 
+.vid-sec {
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+    height: 60rem;
+    margin-left: 9rem;
+    margin-right: 9rem;
+    padding-bottom: 3rem;
+}
+.vid {
+    height: 100%;
+}
+.vid-sec section {
+height: 100%;
+}
+.vid-sec section .protect {
+    display: flex;
+    flex-direction: column;
+    font-size: 4rem;
+    color: #011B33;
+    max-width: 45rem;
+    line-height: 4rem;
+    padding-top: 5rem;
+}
+.vid-sec section .protect span {
     font-size: 2rem;
-    width: 85%;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    color: black;
+    line-height: 2rem;
+}
+.div-three {
+    background-color: #eaf6fc;
+    margin-top: 6rem;
+    padding: 7rem 6rem;
+}
+.trusted {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+ 
+}
+.trusted h2 {
+    font-size: 4rem;
+    width: 50rem;
+    color: #011B33;
+}
+.trusted span {
+    font-size: 2rem;
+    width: 60rem;
+}
+.paystack-for {
+    margin-top: 4rem;
+    padding: 2rem 3rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+    width: 33%;
+    background-color: white;
+}
+.paystack-for figure {
+    padding-bottom: 3rem;
+}
+.paystack-for figure img {
+    width: 10rem;
+}
+.paystack-for article {
+    
+    font-size: 1.9rem;
+} 
+.glob {
+    padding-bottom: 2rem;
+    color: #011B33;
+    font-size: 2.5rem;
+    width: 20rem;
+}
+.we {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+.brands {
+    display: flex;
+    gap: 2rem;
+
+}
+.div-four {
+    display: flex;
+    flex-direction: column;
+    width: 60rem;
+    margin: 9rem 6rem;
+}
+.div-four h2 {
+    font-size: 4rem;
+    color: #011B33;
+}
+.div-four article {
+    font-size: 2rem;
+    padding-top: 1.5rem;
+}
+.div-five {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    padding: 1rem 6rem;
+}
+.div-five figure {
+    display: flex;
+    align-items: center;
+    gap: 12rem;
+    max-width: 10rem;
+    padding-top: 3rem;
+}
+.div-five figure img {
+    width: 100%;
+}
+.div-six {
+    background-color: #F1FEF4;
+    margin-top: 12rem;
+    padding-top: 4rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+.div-six h2 {
+    width: 55rem;
+    font-weight: 1000;
+    padding-bottom: 1rem;
+    color: #011B33;
+    font-size: 4rem;
+}
+.div-six article {
+    font-size: 2rem;
+    width: 55rem;
+    line-height: 2.5rem;
+    padding-bottom: 6rem;
+}
+.div-six section {
+    padding-top: 4rem;
+    padding-left: 2rem;;
+    padding-right: 2rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+    background-color: white;
+    width: 33%;
+    margin-bottom: 2rem;
+}
+.div-six section figure {
+    padding-bottom: 3rem;
+    max-width: 7rem;
+}
+.div-six section figure img {
+    width: 100%;
+}
+.div-six section article {
+    padding-bottom: 3rem;
+    width: 100%;
+}
+.div-six section main {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.div-six section main figure img {
+    max-width: 7rem;
+}
+.div-six section main figure img {
+    border-radius: 100%;
+    width: 100%;
+}
+.div-six section main article {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+.div-six section main article span {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+}
+.profile {
+    display: flex;
+    gap: 2rem;
+}
+.y {
+    max-width: 3rem;
+}
+.seven {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15rem 6rem;
+}
+.seven section article {
+   
+    font-size:  2rem;
+    padding-bottom: 1rem;
+}
+.seven section h2 {
+    color: #011B33;
+    font-size: 4rem;
+    max-width: 50rem;
+}
+.seven section a .btn {
+    font-size: 1.7rem;
+    width: 20rem;
+    height: 6rem;
+}
+footer {
+    margin: 1rem 8rem;
+    display: flex;
+    justify-content: space-between;
 }

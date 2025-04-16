@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    height: 100vh;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed; 
+    width: 100%;
+    padding-top: 1rem;
+    z-index: 100; 
+    background-color: #f6fcf7;
+    opacity: 0.7;
+}
+
+.nav .nav-1 {
+    padding-left: 6rem;   
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;  
+}
+   
+  .nav  .nav-1 .paystack .paystack-logo {
+      width: 10rem;
+    }
+
+.nav .nav-1 a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.9rem;
+    font-family: MyFont, Arial, Helvetica, sans-serif;   
+}
+.nav .nav-1 a:hover {
+    color: blue;
+}
+  
+
+
+.nav .nav-2 {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+    padding-right: 6rem;
+
+}
+.nav .nav-2 a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.9rem;
+    font-family: MyFont, Arial, Helvetica, sans-serif;
+}
+.nav .nav-2 a:hover {
+    color: blue;
+}
+.btn {
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    border: none;
+    background-color: #3bb75e;
+    color: white;
+    height: 3.8rem;
+    width: 16rem;
+    }
+.one  {
+    padding: 4rem 4rem;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: left;
+    background-color: #f6fcf7;
+    color: #011B33;
+}
+
+.one section .forDev .for {
+    font-size: 1.2rem;
+    padding-bottom: 3rem;
+}
+.one section .forDev h2{
+    font-size: 4rem;
+    width: 45rem;
+    padding-bottom: 2rem;
+}
+.one section .forDev .lit {
+    font-size: 2rem;
+    width: 47rem;
+    padding-bottom: 2rem;
+}
+.btns {
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    border: none;
+    background-color: #3bb75e;
+    color: white;
+    height: 5rem;
+    width: 20rem;
+    }
+    .build {
+        display: flex;
+        gap: 20rem;
+        padding: 6rem 6rem;
+        width: 50%;
+        font-size: 2rem;
+      }
+      
+      .build section h2 {
+          font-size: 4rem;
+          padding-bottom: 2rem;
+          color: #011B33;
+      }
+      
+      .build section ul {  
+          display: flex;
+          align-items: center;
+          padding-bottom: .5rem;
+          font-size: 1.6rem;
+          width: 40rem;
+          
+       
+          
+      }
+      .build section ul li {
+          list-style: none;
+      }
+      .myTick {
+          color: green;
+          background-color: rgb(217, 248, 253);
+          border: none;
+          padding: .5rem 1rem;
+          border-radius: .5rem;
+          height: 3rem;
+      }
+      .robust-fig {
+          max-height: 100rem;
+      }
+      .robust-fig .robust {
+          padding-top: 11rem;
+          height: 70%;
+      }
+      .build section .find-sec .find {
+          
+          color: #3BB75E;
+          font-size: 1.7rem;
+          margin-top: 5rem;
+      }
+       

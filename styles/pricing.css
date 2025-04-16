@@ -36,10 +36,11 @@ html {
     text-decoration: none;
     color: black;
     font-size: 1.9rem;
-    font-family: MyFont, Arial, Helvetica, sans-serif;
-    
+    font-family: MyFont, Arial, Helvetica, sans-serif;   
 }
-
+.nav .nav-1 a:hover {
+    color: blue;
+}
 
 .nav .nav-2 {
     display: flex;
@@ -55,8 +56,10 @@ html {
     text-decoration: none;
     color: black;
     font-size: 1.9rem;
-    font-family: MyFont, Arial, Helvetica, sans-serif;
-    
+    font-family: MyFont, Arial, Helvetica, sans-serif;    
+}
+.nav .nav-2 a:hover {
+    color: blue;
 }
 .btn {
 padding: 1rem 2rem;
@@ -72,7 +75,7 @@ width: 16rem;
     flex-direction: column;
     justify-content: center;
     gap: .5rem;
-    height: 80vh;
+    height: 60vh;
     font-size: 2rem;
  background-color:#f1fef4;
 }
@@ -91,4 +94,97 @@ width: 16rem;
 .pricing-for .pay {
     display: flex;
     justify-content: center;
+}
+.build {
+    padding: -1rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 2rem;
+    background-color: #f1fef4;
+  }
+  .build section {
+    border: 1px solid white;
+    border-radius: 1rem;
+    background-color: white;
+    padding: 3rem 4rem;
+    height: 20rem;
+  }
+  .build section h2 {
+      font-size: 4rem;
+      border-bottom: 1px solid grey ;
+      padding-bottom: 2rem;
+      color: #011B33;
+  }
+  .build section main {
+    padding-top: 2rem;
+  }
+  .build section ul {  
+      display: flex;
+      align-items: center;
+      padding-bottom: .5rem;
+      font-size: 1.6rem;
+      width: 40rem;
+      
+   
+      
+  }
+  .build section ul li {
+      list-style: none;
+  }
+  .myTick {
+      color: green;
+      background-color: rgb(217, 248, 253);
+      border: none;
+      padding: .5rem 1rem;
+      border-radius: .5rem;
+      height: 3rem;
+      
+  }
+
+.three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 11rem 4rem;
+}
+.three section {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 6rem;
+}
+.three section h2 {
+    padding-bottom: 3rem;
+    font-size: 3rem;
+
+}
+.three section article{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    border-bottom:
+    .3px solid grey;  
+    border-top:
+    .3px solid grey;
+    width: 100rem;
+    
+}
+.three section article span {
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    max-width: 45rem;
+    text-align: right;
+  
+}
+.three section article span .Tick {
+    width: 2rem;
+    background-color: rgb(218, 241, 241);
+    border: none;
+    color: green;
+    border-radius: 100%;
+    margin-right: 1.5rem;
+    
+    
 }
