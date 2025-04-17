@@ -79,8 +79,13 @@ console.log(division)
 const digitName = 112345
 const newName = (String(digitName)).replace("1","4")
 console.log(newName)
-const firstName
 
+let Course = {
+    name: "Javascript for beginners",
+    hours: 3
+    
+};
+console.log(Course)
 
 /*
 const console = ()=>{

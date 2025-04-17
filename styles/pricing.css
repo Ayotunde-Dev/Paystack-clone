@@ -184,7 +184,22 @@ width: 16rem;
     border: none;
     color: green;
     border-radius: 100%;
-    margin-right: 1.5rem;
-    
-    
+    margin-right: 1.5rem; 
+}
+.four {
+    background-color: #eaf6fc;
+    padding: 12rem 9rem;
+    display: flex;
+    justify-content: space-between;
+}
+.four section h2 {
+    font-size: 4rem;
+    padding-bottom: 2rem;
+    color: #011B33;
+}
+.four section article {
+    font-size: 2rem;
+    max-width: 40rem;
+    color: #011B33;
+    line-height: 2.6rem;
 }
