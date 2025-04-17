@@ -160,8 +160,6 @@ width: 16rem;
     max-width: 6rem;
     width: 100%;
     border-radius: 100%;
-    border-radius: ;
- 
 }
 .profile-article {
     display: flex;
@@ -181,4 +179,73 @@ width: 16rem;
  .online {
     font-size: 1.5rem;
     color: #74848a;
+}
+
+.footer1 {
+    display: flex;
+    margin: 3rem 5rem;
+    justify-content: space-evenly;
+    padding-bottom: 3rem;
+    border-bottom: .01rem solid rgba(218, 216, 216, 0.639);
+    width: 140rem;
+}
+
+.footer1 h3{
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+    margin-top: 3rem;
+}
+.footer1 ul{
+    list-style-type: none;
+    font-size: 16px;
+}
+.footer1 ul li{
+    margin-bottom: 12px;
+}
+.footer1 ul li:hover{
+    color: rgb(72, 156, 253);
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+.footer2 {
+    display: flex;
+    margin: 3rem 5rem;
+    justify-content: space-evenly;
+    padding-bottom: 3rem;
+    border-bottom: .01rem solid rgba(218, 216, 216, 0.639);
+    width: 140rem;
+}
+
+.footer2 h3{
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+    margin-top: 3rem;
+}
+.footer2 ul{
+    list-style-type: none;
+    font-size: 1.6rem;
+}
+.footer2 ul li{
+    margin-bottom: 1.2rem;
+}
+.blue {
+    cursor: pointer;
+    color: #0BA4DB;
+}
+.footer2 ul li .social-fig {
+    max-width: 16rem;
+    display: flex;
+    gap: 1rem;
+}
+.footer2 ul li .social-fig img {
+width: 100%;
+}
+.footer2 ul  .stripe {
+    width: 8rem;
+}
+.footer2 ul  .stripe img {
+    width: 100%;
+}
+.footer2 ul .stripe-li {
+    color: #011b335f
 }
