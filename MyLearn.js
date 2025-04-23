@@ -2,7 +2,7 @@
  assignment
  nested if, if else, switch, else if
  */
-number = 12;
+/*number = 12;
   let foodClass ="oil"
   
 if (number > 5) {
@@ -38,7 +38,6 @@ if (number < 5) {
 }
 
 let food = 'eba';
-
 switch (food) {
     case 'rice':
         console.log('this is rice')
@@ -87,3 +86,61 @@ if (digit > 10) {
     console.log('single digit')
     
 }
+
+let fruits = ['apple', 'orange', 'banana'];
+
+
+fruits[3] = 'mango'
+console.log(fruits)
+console.log(fruits[0])
+console.log(fruits[1])
+console.log(fruits[2])
+console.log(fruits[3])
+
+
+let numOfFruits = fruits.length
+console.log(numOfFruits)
+let index = fruits.indexOf('apple')
+console.log(index)
+let position = fruits.indexOf('bana')
+console.log(position)
+
+/*
+Loops
+While loop
+Do while loop
+For loop
+*/
+/*const areYouABoy = false
+while (areYouABoy) {
+    
+}
+*/
+/*
+let a = 0
+while (a<= 10) {
+    let result = 0
+
+    console.log(a++)
+}
+*/
+let z = 0;
+while (z <= 18) {
+    console.log(z);
+    z += 2;
+}
+
+
+
+let j = 0;
+do {
+    j += 2;
+    console.log(j);
+} while (j <= 18);
+
+let k = 0;
+while (k <= 18) {
+console.log(k);
+    k += 2;
+}
+let n = 20;

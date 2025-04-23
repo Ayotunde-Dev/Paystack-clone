@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    height: 100vh;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed; 
+    width: 100%;
+    padding-top: 1rem;
+    z-index: 100; 
+    background-color: #eaf6fc;
+    opacity: 0.7;
+}
+
+.nav .nav-1 {
+    padding-left: 6rem;   
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;  
+}
+   
+  .nav  .nav-1 .paystack .paystack-logo {
+      width: 10rem;
+    }
+
+.nav .nav-1 a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.9rem;
+    font-family: MyFont, Arial, Helvetica, sans-serif;   
+}
+.nav .nav-1 a:hover {
+    color: blue;
+}
+  
+
+
+.nav .nav-2 {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+    padding-right: 6rem;
+
+}
+.nav .nav-2 a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.9rem;
+    font-family: MyFont, Arial, Helvetica, sans-serif;
+}
+.nav .nav-2 a:hover {
+    color: blue;
+}
+.btn {
+padding: 1rem 2rem;
+border-radius: .5rem;
+border: none;
+background-color: #3bb75e;
+color: white;
+height: 3.8rem;
+width: 16rem;
+}
+.one {
+    background-color: #eaf6fc;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    height: 100vh;
+    padding: 2rem 15rem;  
+}
+.one section {
+    width: 50rem;
+    padding-bottom: 12rem;
+}
+.one section h3 {
+    padding-top: 35rem;
+    padding-bottom: 2rem;
+}
+.one section h1 {
+    font-weight: 900;
+    font-size: 4rem;
+    color: #011B33;
+}
+.one section article {
+    font-weight: 10;
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+.btns {
+    margin-top: 3rem;
+    border-radius: .5rem;
+    border: none;
+    background-color: #3bb75e;
+    color: white;
+    height: 4.8rem;
+    width: 20rem;
+    font-size: 1.6rem;
+    }
+.one main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30rem;
+}
+.one main section article {
+    padding-bottom: 1rem;
+}
+.one main section figure {
+    display: flex;
+    gap: 2rem;
+    max-width: 10rem;
+}
+.one main section figure .trust-img {
+    width: 100%;
+}
+.one main section article {
+    font-size: 1.7em;
+    font-weight: 300;
+    width: 35rem;
+}
+
+.two {
+    margin: 12rem 15rem;
+    display: flex;
+    flex-direction: column;
+}
+.two section {
+    width: 60rem;
+}
+.two h1 {
+    font-size: 4.3rem;
+}
+.two section article {
+    font-weight: 100;
+    font-size: 2.2rem;
+    padding-top: 2rem;
+}
+.three {
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+    padding: 2rem 15rem;
+}
+.three section h2 {
+    font-size: 4rem;
+}
+.three section figure {
+     height: 70rem
+}
+.three section figure img {
+    height: 100%;
+}
