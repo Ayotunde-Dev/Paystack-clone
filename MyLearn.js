@@ -140,7 +140,8 @@ do {
 
 let k = 0;
 while (k <= 18) {
-console.log(k);
+    console.log(k);
     k += 2;
 }
-let n = 20;
+
+// fibonaccci series with while loop
